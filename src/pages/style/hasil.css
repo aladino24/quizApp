@@ -1,0 +1,56 @@
+.box-container{
+    margin-top: 1rem;
+}
+.title-hasil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.card-box-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.card-box-header{
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.card-box-body{
+    padding: 0.5rem 1.25rem;
+    display: flex;
+}
+
+.card-box-bahas{
+    border-top: 1px solid rgba(0,0,0,.125);
+    padding: 0.5rem 1.25rem 0.5rem 1.25rem;; 
+}
+
+.pertanyaan{
+    font-size: 19x;
+}
+.lihat-rank{
+    font-size: 15px;
+    color: white;
+    border: 1px solid transparent;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 1;
+    padding: 5px 5px;
+    border-radius: 2px;
+    margin: 20% 15%;
+}
+
